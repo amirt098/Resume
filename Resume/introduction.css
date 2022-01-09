@@ -1,0 +1,84 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.u-section-1 .u-sheet-1 {
+  min-height: 336px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 222px;
+  height: 251px;
+  margin: 10px auto 0 168px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: -221px 178px 0 728px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 10px 259px 60px 442px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 78px;
+    margin-left: 628px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 159px;
+    margin-left: 342px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+    margin-left: 486px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 49px;
+    margin-left: 232px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-left: 306px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 101px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 118px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 106px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+}
